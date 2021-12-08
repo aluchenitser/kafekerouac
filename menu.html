@@ -8,6 +8,24 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<img style="max-width: 100%" src="img/big_menu2.jpg" />
+	<style>
+		img {
+			box-sizing: border-box;
+			padding: 25px;
+			padding-bottom: 10px;
+		}
+
+		@media (max-width: 760px) {
+			img { padding: 10px; padding-bottom: 5px;}
+		}
+
+	</style>
+	<div class="menus">
+		<img style="max-width: 100%" src="img/menu/menu_center.jpg" />
+		<div style="display: flex;">
+			<img style="max-width: 50%" src="img/menu/menu_left.jpg" /><br>
+			<img style="max-width: 50%" src="img/menu/menu_right.jpg" /><br>
+		</div>
+	</div>
 </body>
 </html>
